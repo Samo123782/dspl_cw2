@@ -20,7 +20,7 @@ df["year"] = df["year"].astype(int)
 df["new_displacement"] = pd.to_numeric(df["new_displacement"], errors='coerce')
 df = df.dropna(subset=["new_displacement"])
 
-# --- Sidebar Filters ---
+# Sidebar Filters 
 st.sidebar.header("🔎 Filter Data")
 
 years = st.sidebar.multiselect(
