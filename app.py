@@ -31,7 +31,7 @@ years = st.sidebar.multiselect(
 
 filtered_df = df[df["year"].isin(years)]
 
-# --- App Title ---
+# App Title 
 st.title("🇱🇰 Sri Lanka Disaster-Related Displacements Dashboard")
 st.markdown("Analyze disaster-induced displacement patterns across Sri Lanka based on available data.")
 
