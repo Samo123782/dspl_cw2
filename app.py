@@ -117,7 +117,7 @@ else:
 st.subheader(" Summary Statistics")
 st.dataframe(filtered_df.describe(include='all'))
 
-# --- Download Filtered Data ---
+# Download Filtered Data
 st.subheader(" Download Filtered Data")
 csv = filtered_df.to_csv(index=False).encode('utf-8')
 st.download_button(label="📥 Download CSV File", data=csv, file_name=f'displacement_data_filtered.csv', mime='text/csv')
