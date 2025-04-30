@@ -55,7 +55,7 @@ col3.metric("Highest Displacement Event", max_displacement_event)
 with st.expander(" See Raw Data"):
     st.dataframe(filtered_df)
 
-# --- Charts Section ---
+# Charts Section
 
 # Line Chart
 st.subheader(" Line Chart: New Displacements per Event")
