@@ -113,7 +113,7 @@ if "new_displacement" in filtered_df.columns:
 else:
     st.warning("Required column for histogram not found.")
 
-# --- Summary Statistics ---
+# Summary Statistics 
 st.subheader(" Summary Statistics")
 st.dataframe(filtered_df.describe(include='all'))
 
