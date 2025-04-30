@@ -35,7 +35,7 @@ filtered_df = df[df["year"].isin(years)]
 st.title("🇱🇰 Sri Lanka Disaster-Related Displacements Dashboard")
 st.markdown("Analyze disaster-induced displacement patterns across Sri Lanka based on available data.")
 
-# --- Key Statistics ---
+# Key Statistics 
 st.subheader("Key Metrics")
 
 total_displacements = filtered_df["new_displacement"].sum()
