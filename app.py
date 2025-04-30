@@ -51,7 +51,7 @@ col1.metric("Total Displacements", f"{int(total_displacements):,}")
 col2.metric("Number of Events", total_events)
 col3.metric("Highest Displacement Event", max_displacement_event)
 
-# --- Expandable Raw Data ---
+# Expandable Raw Data 
 with st.expander(" See Raw Data"):
     st.dataframe(filtered_df)
 
