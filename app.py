@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="Sri Lanka Displacements Dashboard", page_icon="🇱🇰", layout="wide")
 
 #  Load Dataset 
-df = pd.read_csv("/Users/samodamarasinghe/Desktop/dspl_cw2/internal-displacements-new-displacements-associated-with-disasters_lka.csv")
+df = pd.read_csv("internal-displacements-new-displacements-associated-with-disasters_lka.csv")
 
 #  Data Cleaning 
 df.columns = df.columns.str.strip()
